@@ -1,74 +1,53 @@
 ---
-title: "Terms of Service"
-lastUpdated: "2024-03-04"
+title: "Politique de confidentialité"
+lastUpdated: "2025-03-24"
 seo:
-  title: "Terms of Service - Rules for Using Our Platform"
-  description: "Our terms of service outline the rules, guidelines, and legal agreements between you and our company."
+  title: "Politique de confidentialité"
+  description: "Nos conditions de service décrivent les règles, les directives et les accords juridiques entre vous et notre entreprise"
 ---
 
-## Introduction
+## Qui sommes-nous ?
 
-Welcome to our Terms of Service. These terms govern your use of our website and services. By accessing or using our services, you agree to be bound by these terms.
+L’adresse de notre site est : https://formation.backprop.fr.
 
-## Definitions
+## Commentaires
 
-- **"Company"**, **"we"**, **"us"**, or **"our"** refers to [Your Company Name].
-- **"Services"** refers to the website, applications, and other offerings provided by the Company.
-- **"User"**, **"you"**, or **"your"** refers to the individual or entity using our Services.
-- **"Content"** refers to text, images, videos, audio, and other materials that may appear on our Services.
+Quand vous laissez un commentaire sur notre site, les données inscrites dans le formulaire de commentaire, ainsi que votre adresse IP et l’agent utilisateur de votre navigateur sont collectés pour nous aider à la détection des commentaires indésirables.
 
-## Account Registration
+## Médias
 
-When you create an account with us, you must provide accurate and complete information. You are responsible for maintaining the security of your account and password. The Company cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.
+Si vous téléversez des images sur le site, nous vous conseillons d’éviter de téléverser des images contenant des données EXIF de coordonnées GPS. Les personnes visitant votre site peuvent télécharger et extraire des données de localisation depuis ces images.
 
-## Acceptable Use
+## Cookies
 
-You agree not to use the Services to:
+Si vous déposez un commentaire sur notre site, il vous sera proposé d’enregistrer votre nom, adresse e-mail et site dans des cookies. C’est uniquement pour votre confort afin de ne pas avoir à saisir ces informations si vous déposez un autre commentaire plus tard. Ces cookies expirent au bout d’un an.
 
-- Violate any applicable laws or regulations
-- Infringe upon the rights of others
-- Distribute malware or other harmful code
-- Interfere with or disrupt the Services
-- Engage in unauthorized data collection
-- Send unsolicited communications
+Si vous vous rendez sur la page de connexion, un cookie temporaire sera créé afin de déterminer si votre navigateur accepte les cookies. Il ne contient pas de données personnelles et sera supprimé automatiquement à la fermeture de votre navigateur.
 
-## Intellectual Property
+Lorsque vous vous connecterez, nous mettrons en place un certain nombre de cookies pour enregistrer vos informations de connexion et vos préférences d’écran. La durée de vie d’un cookie de connexion est de deux jours, celle d’un cookie d’option d’écran est d’un an. Si vous cochez « Se souvenir de moi », votre cookie de connexion sera conservé pendant deux semaines. Si vous vous déconnectez de votre compte, le cookie de connexion sera effacé.
 
-### Our Content
+En modifiant ou en publiant une publication, un cookie supplémentaire sera enregistré dans votre navigateur. Ce cookie ne comprend aucune donnée personnelle. Il indique simplement l’ID de la publication que vous venez de modifier. Il expire au bout d’un jour.
 
-The Services and all content and materials available through the Services are the property of the Company or its licensors and are protected by copyright, trademark, and other intellectual property laws.
+## Contenu embarqué depuis d’autres sites
 
-### Your Content
+Les articles de ce site peuvent inclure des contenus intégrés (par exemple des vidéos, images, articles…). Le contenu intégré depuis d’autres sites se comporte de la même manière que si le visiteur se rendait sur cet autre site.
 
-You retain ownership of any content you submit, post, or display on or through the Services. By submitting content, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, adapt, publish, translate, and distribute your content.
+Ces sites web pourraient collecter des données sur vous, utiliser des cookies, embarquer des outils de suivis tiers, suivre vos interactions avec ces contenus embarqués si vous disposez d’un compte connecté sur leur site web.
 
-## Termination
+## Utilisation et transmission de vos données personnelles
 
-We may terminate or suspend your account and access to the Services at our sole discretion, without notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties, or for any other reason.
+Si vous demandez une réinitialisation de votre mot de passe, votre adresse IP sera incluse dans l’e-mail de réinitialisation.
 
-## Disclaimer of Warranties
+## Durées de stockage de vos données
 
-THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+Si vous laissez un commentaire, le commentaire et ses métadonnées sont conservés indéfiniment. Cela permet de reconnaître et approuver automatiquement les commentaires suivants au lieu de les laisser dans la file de modération.
 
-## Limitation of Liability
+Pour les comptes qui s’inscrivent sur notre site (le cas échéant), nous stockons également les données personnelles indiquées dans leur profil. Tous les comptes peuvent voir, modifier ou supprimer leurs informations personnelles à tout moment (à l’exception de leur identifiant). Les gestionnaires du site peuvent aussi voir et modifier ces informations.
 
-IN NO EVENT SHALL THE COMPANY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION, LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM YOUR ACCESS TO OR USE OF OR INABILITY TO ACCESS OR USE THE SERVICES.
+## Les droits que vous avez sur vos données
 
-## Indemnification
+Si vous avez un compte ou si vous avez laissé des commentaires sur le site, vous pouvez demander à recevoir un fichier contenant toutes les données personnelles que nous possédons à votre sujet, incluant celles que vous nous avez fournies. Vous pouvez également demander la suppression des données personnelles vous concernant. Cela ne prend pas en compte les données stockées à des fins administratives, légales ou pour des raisons de sécurité.
 
-You agree to indemnify, defend, and hold harmless the Company and its officers, directors, employees, agents, and affiliates from and against any and all claims, liabilities, damages, losses, costs, expenses, or fees (including reasonable attorneys' fees) that such parties may incur as a result of or arising from your violation of these Terms.
+## Où vos données sont envoyées
 
-## Changes to Terms
-
-We reserve the right to modify these Terms at any time. If we make changes, we will provide notice by posting the updated Terms on this page and updating the "Last Updated" date. Your continued use of the Services after any such changes constitutes your acceptance of the new Terms.
-
-## Governing Law
-
-These Terms shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law provisions.
-
-## Contact Us
-
-If you have any questions about these Terms, please contact us at:
-
-- Email: legal@example.com
-- Address: 123 Legal Avenue, Terms City, 12345 
+Les commentaires des visiteurs peuvent être vérifiés à l’aide d’un service automatisé de détection des commentaires indésirables.

@@ -12,14 +12,18 @@ import CtaBanner from '@components/sections/CtaBanner.astro';
 import Faqs from '@components/sections/Faqs.astro';
 import { faqLists } from '@data/faqs';
 import RecentPosts from '@components/sections/RecentPosts.astro';
-import heroImage from '../assets/images/home/default-hero-2.jpg';
-import styleGuideImage from '../assets/images/home/developer.jpg';
+// import heroImage from '../assets/images/home/default-hero-2.jpg';
+import heroImage from '../assets/images/home/conference-fond-ecran.png';
+
+// import styleGuideImage from '../assets/images/home/developer.jpg';
+import styleGuideImage from '../assets/images/home/creative.png';
+
 
 const seoTitle = "Modern, High-Performance Astro Theme";
 const seoDescription = "A modern, high-performance Astro theme for developer portfolios and documentation sites.";
 
 const heroContent = {
-    title: 'The Foundation for Beautiful Astro JS Websites',
+    title: "BackProp, votre partenaire pour l'intelligence artificielle",
     description: 'Titan Core is a minimal, performance-focused Astro JS theme that serves as the perfect foundation for your next web project. Built with clean code and modern best practices, it\'s designed to be extended and customized to your specific needs.',
     buttons: [
         {
@@ -29,7 +33,7 @@ const heroContent = {
         },
         {
             text: 'View on GitHub',
-            link: 'https://github.com/rspisarski/titan-core',
+            link: 'https://github.com/boscherj/backprop-astro',
             target: '_blank'
         }
     ],
@@ -39,8 +43,8 @@ const heroContent = {
 
 const featuresSection = {
     eyebrow: "CORE FEATURES",
-    title: "Everything You Need, Nothing You Don't",
-    description: "Titan Core gives you a solid foundation with essential features while staying lightweight and customizable. Start with a clean slate and build exactly what you need without the bloat.",
+    title: "Notre expertise BackProp",
+    description: "Notre expertise en Intelligence Artificielle ne date pas d’hier ! Nous en avons suivi toutes les évolutions, du sytème expert à l’intelligence artificielle générative en passant par l’intelligence artificielle discriminative. Nous avons formé aussi bien des centres de recherche, des équipes RH, communication et marketing, que des écoles d’ingénieurs.",
     features: featureLists.main.features,
     button: {
         text: "View Theme Info",
@@ -56,22 +60,22 @@ const FooterCta = {
     hideCta: false,
     button: {
         text: 'Download Titan Core',
-        link: 'https://github.com/rspisarski/titan-core',
+        link: 'https://github.com/boscherj/backprop-astro',
         target: '_blank'
     }
 }
 
 const styleGuideSection = {
-    eyebrow: "Design System",
-    headline: "Consistent & Beautiful Components",
-    description: "Titan Core comes with a complete style guide to ensure your projects maintain visual consistency. From typography to interactive elements, we've carefully crafted each component.",
+    eyebrow: "Génération de contenu textuel",
+    headline: "ChatGPT",
+    description: "Nous avons assuré la formation de dizaines d'équipes à l’utilisation de ChatGPT et d’outils similaires (Claude 3, Gemini, etc.). Nous avons également formé des équipes de développeurs à l’utilisation de l’API OpenAI et à la création d’applications sur mesure.",
     image: {
         src: styleGuideImage,
         alt: "Featured image"
     },
     buttons: [
         {
-            text: "Explore Style Guide",
+            text: "Exemple de plan de formation",
             link: "/style-guide",
             variant: "primary" as const
         }
@@ -96,11 +100,11 @@ const sideBySideStats = {
 };
 
 const mainCta = {
-    eyebrow: "Build Blocks",
-    title: "Ready-to-Use Components",
-    description: "Save development time with our pre-built, accessible components. Each one is designed to integrate seamlessly with your projects while maintaining excellent performance.",
+    eyebrow: "Génération d'images",
+    title: "MidJourney / Dall-E",
+    description: "Durant cette formation sur Midjourney et/ou DALL.E v3, un outil conçu pour la création d’images, vous apprendrez les fondements de l’intelligence artificielle et de la génération d’images.",
     button: {
-        text: "View All Components",
+        text: "Exemple de plan de formation",
         link: "/components",
         variant: "primary" as const,
         target: "_self" as const
@@ -109,7 +113,7 @@ const mainCta = {
 
 
 const logosSection = {
-    eyebrow: "Our Clients",
+    eyebrow: "Quelques Clients",
     logos: logoLists.main.logos
 }
 
@@ -119,6 +123,7 @@ const faqsSection = {
     description: 'Find answers to common questions about our platform and services.',
     faqs: faqLists.main.faqs
 }
+
 
 const recentPostsSection = {
     eyebrow: "LATEST INSIGHTS",
@@ -130,12 +135,13 @@ const recentPostsSection = {
         variant: "primary" as const
     }
 }
+
 ---
 
 <Layout footerCta={FooterCta} title={seoTitle} description={seoDescription}>
     <Hero content={heroContent} />
     <Features content={featuresSection} padding="base" background="light" />
-    <RecentPosts content={recentPostsSection} background="base" padding="base" postsToShow={3} category="Theme Usage"/>
+    <RecentPosts content={recentPostsSection} background="base" padding="base" postsToShow={3} category="Theme Usage"/> 
     <SplitPanel content={styleGuideSection} imagePosition="right" background="light" padding="base" />
     <CtaBanner content={mainCta} variant="contained" background="light" paddingBottom="base" />
     <Logos content={logosSection} background="base" padding='small'/>

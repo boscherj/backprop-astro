@@ -7,17 +7,17 @@ import Checkbox from "@components/ui/form/Checkbox.astro";
 import Select from "@components/ui/form/Select.astro";
 
 const hearAboutOptions = [
-    { label: "Search Engine", value: "search" },
-    { label: "Social Media", value: "social" },
-    { label: "Friend/Colleague", value: "referral" },
-    { label: "Other", value: "other" }
+    { label: "Moteur de recherche", value: "search" },
+    { label: "Réseaux sociaux", value: "social" },
+    { label: "Ami(s)/Collègue(s)", value: "referral" },
+    { label: "Autre", value: "other" }
 ];
 
 const interestOptions = [
-    { label: "Web Development", value: "web" },
-    { label: "Mobile Development", value: "mobile" },
-    { label: "Design Services", value: "design" },
-    { label: "Consulting", value: "consulting" }
+    { label: "Formation à l'IA Générative", value: "web" },
+    { label: "Conférence en IA", value: "mobile" },
+    { label: "Consulting", value: "design" },
+    { label: "Formation technique", value: "consulting" }
 ];
 
 const serviceOptions = [
@@ -40,7 +40,7 @@ const formBackground = 'light';
 <form class="space-y-6 bg-white p-6 rounded-lg">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Input
-        label="Name"
+        label="Nom"
         id="name"
         name="name"
         required
@@ -57,14 +57,14 @@ const formBackground = 'light';
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <Input
-        label="Phone"
+        label="Téléphone"
         type="tel"
         id="phone"
         name="phone"
         background={formBackground}
     />
     <Input
-        label="Company"
+        label="Entreprise"
         id="company"
         name="company"
         background={formBackground}
@@ -73,7 +73,7 @@ const formBackground = 'light';
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Radio
-            label="How did you hear about us?"
+            label="Vous arrivez à nous par ?"
             id="hear-about"
             name="hear-about"
             options={hearAboutOptions}
@@ -81,7 +81,7 @@ const formBackground = 'light';
             background={formBackground}
         />
     <Checkbox
-        label="Areas of Interest"
+        label="Sujet d intérêt"
         id="interests"
         name="interests"
         options={interestOptions}
@@ -97,34 +97,8 @@ const formBackground = 'light';
         background={formBackground}
     />
     
-    <Checkbox
-        label="I agree to the terms and conditions"
-        id="terms"
-        name="terms"
-        required
-        background={formBackground}
-    />
+
     
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <Select
-            label="What service are you interested in?"
-            id="service"
-            name="service"
-            options={serviceOptions}
-            required
-            placeholder="Choose a service"
-            background={formBackground}
-        />
-        <Select
-            label="Budget Range"
-            id="budget"
-            name="budget"
-            options={budgetOptions}
-            required
-            placeholder="Select your budget"
-            background={formBackground}
-        />
-    </div>
 
 
 

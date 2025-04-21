@@ -2,26 +2,25 @@
 
 export const headerMenu = [
     { name: 'Theme Info', link: '/theme-info' },
-    { name: 'Our Team', link: '/team' },
-    { name: 'Blog', link: '/blog' },
-    { name: 'Style-Guide', link: '/style-guide', showArrow: false,
+    { name: 'Équipe', link: '/team' },
+    // { name: 'Blog', link: '/blog' },
+    { name: 'Expertise', link: '/style-guide', showArrow: false,
         children: [
-            { name: 'Typography', link: '/style-guide#typography' },
-            { name: 'Colors', link: '/style-guide#colors' },
-            { name: 'Links', link: '/style-guide#links' },
-            { name: 'Buttons', link: '/style-guide#buttons' },
-            { name: 'Forms', link: '/style-guide#forms' },
-            { name: 'Lists', link: '/style-guide#lists' },
-        ]
+            { name: 'ChatGPT', link: '/style-guide#typography' },
+            { name: 'Claude 3, Gemini', link: '/style-guide#colors' },
+            { name: 'Mistral, LLama, DeepSeek', link: '/style-guide#links' },
+            { name: 'MS Copilot', link: '/style-guide#buttons' },
+            { name: 'MidJourney, DALL.E', link: '/style-guide#forms' },
+            { name: 'TensorFlow, Langchain', link: '/style-guide#lists' },
+        ]   
     }
 ];
 
 export const footerMenu = [
-    { name: 'Style Guide', link: '/style-guide' },
+    { name: 'Expertise', link: '/style-guide' },
 ];
 
 export const legalMenu = [
-    { name: 'Privacy Policy', link: '/legal/privacy-policy' },
-    { name: 'Terms of Service', link: '/legal/terms-of-service' }
+    { name: 'Confidentialité', link: '/legal/terms-of-service' }
 ];
 

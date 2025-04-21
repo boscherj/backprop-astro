@@ -3,7 +3,6 @@
 
 **Titan Core** is a high-performance, feature-rich theme for Astro JS, designed for modern websites, blogs, and portfolios. With beautiful UI components, multiple theme options, and a focus on performance, Titan Core helps you build stunning websites quickly.
 
-[Live Demo](https://titan-core.netlify.app)
 
 ## ✨ Features
 
@@ -26,10 +25,10 @@
 
 ```bash
 # Create a new project with this theme
-npm create astro@latest -- --template rspisarski/titan-core
+npm create astro@latest -- --template boscherj/backprop-astro
 
 # or clone this repository
-git clone https://github.com/rspisarski/titan-core.git my-website
+git clone https://github.com/boscherj/backprop-astro.git my-website
 cd my-website
 npm install
 npm run dev
